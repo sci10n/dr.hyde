@@ -1,0 +1,12 @@
+<footer>
+<div class="row">
+<div class="column">
+<ul class="contact">
+{% for link in site.data.social-media%}
+  <li><a href="{{ link.url }}"><img src="{{ link.icon }}" alt="{{ link.name }}" border="0"></a>
+  </li>
+{% endfor %}
+</ul>
+ </div>
+</div>
+</footer>

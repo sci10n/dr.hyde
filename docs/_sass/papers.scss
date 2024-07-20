@@ -1,0 +1,78 @@
+
+$post-background-color: #fdfbfb;
+$background-color: #f8f9fa;
+$header-background-color: #000;
+$header-color: #fff;
+
+
+.post {
+  background-color: $post-background-color;
+      padding-left: 25%;
+    padding-right: 25%;
+
+    @media (max-width: 992px) {
+    padding-left: 15%;
+    padding-right: 15%;
+    }
+
+    @media (max-width: 768px) { // Small devices (landscape phones, less than 768px)
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+}
+.post-header {
+  background-color: $header-background-color;
+  color: $header-color;
+  padding-left: 10px;
+  margin-left: -10px;
+}
+
+.paper {
+  .year {
+    font-weight: bold;
+  }
+
+  .links {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .links li {
+      display: inline;
+      margin-right: 10px;
+  }
+
+  .authors {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .authors li {
+      display: inline;
+      margin-right: 10px;
+      font-style: italic;
+  }
+
+  .tags {
+    list-style-type: none;
+    padding: 0;
+  }
+
+    .tags li {
+        display: inline;
+        margin-right: 10px;
+    }
+
+  .paper-link, .code-link {
+    color: #000000;
+    text-decoration: underline;
+  }
+
+  .paper-link:hover, .code-link:hover {
+      text-decoration: underline;
+  }
+
+  .paper-link {
+      font-weight: bold;
+  }
+}

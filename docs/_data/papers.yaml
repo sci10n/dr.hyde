@@ -1,0 +1,44 @@
+- title: "Modeling NPC Perception Using Supervised Learning"
+  description: "This study explores the use of supervised learning models to approximate visual perception in non-playable characters (NPCs) within video games. By creating a dataset of scenarios where an NPC should or should not perceive a player, and training a feed-forward neural network with this data, the research aims to improve the realism of NPC awareness and interaction. The implementation uses the Godot engine for game development and PyTorch for the perception model."
+  year: 2021
+  paper_url: "/assets/papers/npc-perception.pdf"
+
+- title: "Interactive Deep Learning for CT Bone Segmentation"
+  description: "This study explores the integration of user-provided hints with Convolutional Neural Networks (CNN) for the segmentation of discrete bone fragments in CT volumes. It evaluates the performance of the combined interactive deep learning approach compared to classical segmentation methods, focusing on how user input impacts segmentation quality. The findings indicate that a hybrid method involving user interaction and deep learning can achieve high-quality results, especially when an adequate number of hints are provided."
+  year: 2019
+  paper_url: "/assets/papers/bone-fragment-segmentation.pdf"
+
+- title: "RNN-Driven Linux Kernel Code Generation"
+  description: "This paper explores how training a Recurrent Neural Network (RNN) to generate new Linux kernel code could improve productivity and efficiency in the Linux Kernel project. The study focuses on procedural generation of source code, aiming to reduce human involvement to oversight and managerial tasks by leveraging RNNs for text prediction."
+  year: 2018
+  paper_url: "/assets/papers/rnn-text-generation.pdf"
+
+- title: "Efficiency of HTN Planning in Multi-Agent Robotic Systems"
+  description: "This study evaluates the performance of Hierarchical Task Network (HTN) planning, specifically using the Simple Hierarchical Ordered Planner (SHOP), in multi-agent robotic systems. The research focuses on the efficiency of HTN planning concerning execution time and plan quality within the Robot Operating System (ROS) and MORSE simulation environment"
+  year: 2018
+  paper_url: "/assets/papers/htn-planning.pdf"
+
+- title: "Photorealism through Monte Carlo Path Tracing and Photon Mapping"
+  description: "This paper details the theory and practical implementation of a Monte Carlo path tracer capable of producing photorealistic images through global illumination. The raytracer supports soft shadows, color bleeding, and caustics, and includes a photon mapping extension to enhance convergence rates. The paper includes benchmarking results and discussions on potential improvements"
+  year: 2017
+  paper_url: "/assets/papers/monte-carlo-path-tracer.pdf"
+  source_code_url: "https://github.com/CaffeineViking/mcrt"
+
+- title: "Evolving NPC Behaviors in Games with Genetic Programming"
+  description: "This paper explores the use of genetic programming to evolve behaviour trees for NPCs in a 2D top-down arena shooter. By using high-level action definitions, the approach generates adaptive and complex behaviours more efficiently than traditional hand-crafted methods. The evolved behaviours outperform manually created ones by the 25th generation, demonstrating the effectiveness of this method"
+  year: 2017
+  paper_url: "/assets/papers/genetic-behaviour-trees.pdf"
+  source_code_url: "https://github.com/sci10n/Quake2D"
+
+- title: "Procedural Animation with Curl Noise on GPUs"
+  description: "This project implements a basic flow system to animate a particle system in 3D using curl noise, a method for generating realistic particle flows through procedural animation of turbulent fields. The method is computationally cheaper than the physically accurate Navier-Stokes equations and is suitable for real-time applications such as games and visualizations. The project utilizes OpenCL for particle calculations, OpenGL for rendering, and various tools for runtime configuration and shader management."
+  year: 2016
+  paper_url: "/assets/papers/curl-noise.pdf"
+  source_code_url: "https://github.com/CaffeineViking/cnpf"
+
+- title: "Evaluating Template Matching for Object Localization in Cyber Range Environments"
+  description: "his paper investigates the effectiveness of template matching, a computer vision technique, for object localization within cyber range simulations. It assesses the impact of various factors, including image noise, template generality, and detection thresholds, on the reliability of object identification in a virtual environment. The study involves creating a prototype sensory system to simulate different scenarios and analyze performance metrics such as object localization accuracy and computational efficiency."
+  year: 2016
+  paper_url: "/assets/papers/lightweight-user-agents.pdf"
+  source_code_url: "https://github.com/sci10n/GUI-Agent"
+
